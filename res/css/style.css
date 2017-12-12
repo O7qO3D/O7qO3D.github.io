@@ -1,0 +1,174 @@
+* {
+	font-family: Nasa;
+	color: #e2e2e2;
+}
+
+html {
+	margin: 0 0 0 0;
+}
+
+body {
+	margin: 0 0 0 0;
+	background-color: black;
+	background-image: url(../img/bg.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
+
+h1 {
+	font-size: 27px;
+}
+
+h2 {
+	font-size: 22px;
+	text-indent: 2.5em;
+}
+
+h3 {
+	font-size: 20px;
+	text-indent: 5em;
+	margin: 30px 0 0 0;
+}
+
+a {
+	color: #e2e2e2;
+	text-decoration-line: underline;	
+}
+
+a:hover {
+	text-shadow: white 0 0 2px;
+}
+
+figcaption {
+	position: absolute;
+	vertical-align: bottom;
+	font-family: Nasa;
+	color: #e2e2e2;
+}
+
+.frame {
+	display: inline-block;
+	margin-bottom: 20px;
+	margin-right: 20px;
+}
+
+.frame > span {
+	display: block;
+	margin-left: 65px;
+}
+
+/*.label {
+	margin-left: auto;
+}*/
+
+.menu-link {
+	text-decoration-line: none;
+}
+
+.more {
+	margin-left: 6.7em;
+}
+
+.block {
+	background-color: rgba(10, 10, 10, 0.7);
+	/*opacity: 0.7;*/
+	box-shadow: 0px 0px 3px 3px #1f1f1f;
+	margin: 10px 10px 10px 10px;
+	vertical-align: top;
+	text-shadow: black 0 0 1px;
+	font-size: 15px;
+	padding: 10px 30px 30px 30px;
+	border-radius: 10px;
+}
+
+.illustration {
+	/*opacity: 0.7;*/
+	border: 1px solid #212121;
+	border-radius: 10px;
+}
+
+.content-text {
+	text-indent: 2.5em;
+}
+
+.content-text p {
+	text-indent: 2.5em;
+}
+
+#page-wrapper {
+	width: 1090px;
+	height: 100%;
+	margin: auto;
+}
+
+#header {
+	width: 1010px;
+	height: 60px;
+	display: block;
+	float: left;
+	padding-top: 10px;
+	padding-bottom: 2px;
+}
+
+#header > p {
+	margin: 10px 15px 0 0;
+	font-size: 23px;
+	text-indent: 0;
+	display: inline-block;
+}
+
+#header > p:first-child {
+	font-size: 27px;
+}
+
+
+#sidebar {
+	width: 230px;
+	height: 300px;
+	display: block;
+	float: right;
+}
+
+#sidebar > ul > li {
+	list-style-type: none;
+	vertical-align: left;
+	margin-bottom: 3px;
+	text-indent: -20px;
+	/*margin-right: */
+}
+
+#sidebar > ul > li:before {
+	content: '-   ';
+}
+
+#sidebar > p:first-child {
+	text-align: center;
+	margin-bottom: 0;
+	font-size: 23px;
+}
+
+#content {
+	width: 700px;
+	min-height: 700px;
+	display: block;
+	float: left;
+	margin-bottom: 40px;
+}
+
+/*#content > p {
+	width: 370px;
+	/*display: inline;*/
+}*/
+
+/*#content > img {
+	display: inline;
+	float: right;
+}	*/
+
+#footer {
+	width: 700px;
+	height: 50px;
+	display: block;
+	float: left;
+}
